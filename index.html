@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,7 @@
     <title>Интерент-магазин</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header">
@@ -95,10 +94,11 @@
             </ul>
         </section>
         <section  class="products container">
-                <h2 class="products__heading">Fetured Items</h2>
-                <p class="products__text">Shop for items based on what we featured in this week</p>
+                <div class="products__heading">
+                <h2 class="products__text">Fetured Items</h2>
+                <p class="products__text__text">Shop for items based on what we featured in this week</p>
+                </div>
             <ul class="products__list">
-                
                 <li class="products__item">
                     <img class="products__item-img" src="./img/cart-man.svg" alt="man" width="360" height="420">
                     <h3 class="products__item-heading">ellery x m'o capsule</h3>
@@ -167,8 +167,7 @@
             </ul>
             
         </section>
-    </main>
-    <footer class="footer">
+        <footer class="footer">
             <ul class="footer__list">
                 <li class="footer__item">
                     <div class="footer__item-img">
@@ -178,18 +177,21 @@
                     
                 </li>
                 <li class="footer__item">
-                    <p class="footer__item-heading">subscribe</p>
-                    <h3 class="footer__item-text">for our newletter and promotion</h3>
+                    <h3 class="footer__item-text">for our new letter and promotion</h3>
                 </li>
-                    <input class="footer__item-Subscribe" type="e-mail">Subscribe
+                    <input class="footer__item-Subscribe" type="e-mail">
+                    <p class="footer__item-subscribe">subscribe</p>
             </ul>
-            <ul class="footer__list_-foter"> 
+            <ul class="footer__list__footer"> 
+                <div class="footer__item-icon-icon">
                 <p class="footer__item-heading">© 2021  Brand  All Rights Reserved.</p>
                 <li class="footer__item-icon"><img src="./img/facebook.svg" alt="facebook"></li>
                 <li class="footer__item-icon"><img src="./img/instagram.svg" alt="instagram"></li>
                 <li class="footer__item-icon"><img src="./img/noname.svg" alt="noname"></li>
                 <li class="footer__item-icon"><img src="./img/twitter.svg" alt="twitter"></li>
+                </div>
             </ul>
     </footer>
+    </main>
 </body>
 </html>

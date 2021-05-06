@@ -8,6 +8,7 @@
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
+    margin: 0px;
 }
 .container { 
     width: 1140px;
@@ -144,10 +145,21 @@
     margin-bottom: 25px;
 }
 .products__heading { 
-
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .products__text { 
-
+    width: 182px;
+    height: 36px; 
+    color: #222222
+}
+.products__text__text { 
+    color: #9F9F9F;
+    height: 17px;
+    width: 336px;
 }
 .products__item-heading { 
     font-style: normal;
@@ -239,24 +251,44 @@
 }
 .footer__list { 
     position: relative;
-    justify-content: space-between;
     min-height: 448px;
     display: flex;
-    align-items: center;
     overflow: hidden;
-    width: 360px;
-    flex-direction: column;
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 .footer__item-img { 
-    display: block;
-    position: absolute;
     overflow: hidden;
     height: 100%;
     background-size: cover;
     background-image: url(../img/footer.png);
+}
+.footer__item-subscribe { 
+background-color: #F16D7F;
+}
+.footer__list__footer { 
+    background-color:#222224;
+    height: 79px;
+    margin: auto;
+}
+.footer__item-heading{ 
+    padding-right: 700px;
+    color: #FBFBFB;
+}
+.footer__item-icon-icon { 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__item-icon {
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    
 }
 li {
     list-style-type: none; /* Убираем маркеры */
